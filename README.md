@@ -1,2 +1,2 @@
-# AS
+# Учимся
 JS conspectus
