@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    font-size: 30px;/* размер шрифта*/
+    font-weight: 900;/* жирность шрифта*/
+}
+
+h1, h2, h3 {
+    font-size: 22px;
+    font-style: oblique;/* текст курсив*/
+}
+
+p, ul, ol, li {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 15px;/* отступ слева*/
+}
+
+.container {
+	width: 1170px;/* адаптивность экрана*/
+}
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+    p {
+        width: auto
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
